@@ -1,0 +1,50 @@
+.item {
+  width: 280px;
+}
+.item p {
+  font-size: 20px;
+  width: 500px;
+}
+.options {
+  margin: 10px;
+  display: flex;
+  flex-direction: column; 
+  gap: 10px;
+}
+.correct {
+  background-color: green;
+  color: white;
+}
+
+.incorrect {
+  background-color: red;
+  color: white;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+@media (max-width: 1280px) {
+  .item {
+    width: 280px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 1024px) {
+  .item {
+    width: 170px;
+    font-size: 13px;
+  }
+}
+@media (max-width: 800px) {
+  .item {
+    width: 120px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 500px) {
+  .item {
+    width: 160px;
+  }
+}

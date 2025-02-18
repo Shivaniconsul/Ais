@@ -1,0 +1,14 @@
+.q {
+  color: white;
+  margin: 20px;
+}
+.heading h1 {
+  font-size: 30px;
+}
+.box {
+  margin: 20px;
+  padding: 10px;
+  width: 500px;
+  height: 410px;
+  background-color: rgb(76, 76, 76);
+}
